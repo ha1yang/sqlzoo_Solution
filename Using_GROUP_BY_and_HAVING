@@ -4,6 +4,16 @@
 Section: Using GROUP BY and HAVING.
 
 https://sqlzoo.net/wiki/Using_GROUP_BY_and_HAVING.
+
+NOTE:
+By including a GROUP BY clause functions such as SUM and COUNT are applied to groups of items sharing values. 
+When you specify GROUP BY continent the result is that you get only one row for each different value of continent. 
+All the other columns must be "aggregated" by one of SUM, COUNT ...
+
+The HAVING clause allows use to filter the groups which are displayed. 
+The WHERE clause filters rows before the aggregation, the HAVING clause filters after the aggregation.
+
+If a ORDER BY clause is included we can refer to columns by their position.
 */
 
 --#1. 
