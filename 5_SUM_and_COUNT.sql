@@ -1,7 +1,6 @@
 
 /*
 Section 5: SUM and COUNT
-
 https://sqlzoo.net/wiki/SUM_and_COUNT
 */
 
